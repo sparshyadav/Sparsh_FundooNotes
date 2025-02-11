@@ -9,5 +9,6 @@ router.post('/', userAuth, noteController.createNote);
 router.get('/getAll', userAuth, noteController.getAllNotes);
 router.get('/get/:id', userAuth, noteController.getById);
 router.put('/update/:id', userAuth, noteController.updateNote);
+router.delete('/delete/:id', userAuth, noteController.deleteNote);
 
 export default router;

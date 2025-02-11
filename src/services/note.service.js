@@ -41,3 +41,13 @@ export const updateNote = async (_id, body) => {
         console.log(error);
     }
 }
+
+export const deleteNote = async (_id) => {
+    try {
+        let data = await Note.findByIdAndDelete(_id);
+        return data;
+    }
+    catch (error) {
+        console.log(error);
+    }
+}
