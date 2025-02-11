@@ -147,3 +147,115 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T0
 info: Connected to the database. {"timestamp":"2025-02-11T06:15:18.649Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T06:15:32.861Z"}
 info: Connected to the database. {"timestamp":"2025-02-11T06:15:33.681Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T07:55:59.819Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T07:56:09.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:07:35.578Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.cluster0.rxit5.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rxit5.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rxit5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:19)","syscall":"querySrv","timestamp":"2025-02-11T08:07:35.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:27:57.117Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:28:00.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:28:13.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:28:55.796Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:28:56.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:29:08.800Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:29:11.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:29:19.779Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:29:20.352Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:29:26.331Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:29:26.851Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:30:06.518Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:30:07.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:30:25.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:30:33.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:30:38.745Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:30:39.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:30:54.067Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:30:54.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:30:59.750Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:31:00.280Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:31:10.822Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:31:11.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:31:27.620Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:31:29.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:32:11.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:32:22.214Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:32:22.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:32:51.277Z"}
+error: Could not connect to the database. querySrv ENOTFOUND _mongodb._tcp.cluster0.rxit5.mongodb.net {"code":"ENOTFOUND","hostname":"_mongodb._tcp.cluster0.rxit5.mongodb.net","stack":"Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.rxit5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:19)","syscall":"querySrv","timestamp":"2025-02-11T08:32:52.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:33:24.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:33:30.003Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:33:39.343Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:33:39.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:34:17.510Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:34:18.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:34:36.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:34:42.336Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:34:42.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:34:58.993Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:34:59.536Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:35:10.584Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:35:11.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:35:24.030Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:35:25.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:35:45.029Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:35:45.896Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:35:54.916Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:35:55.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:36:21.350Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:36:21.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:36:45.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:36:51.835Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:36:52.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:36:59.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:37:05.156Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:37:06.260Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:42:33.835Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:42:37.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:43:29.777Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:43:30.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:47:24.214Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:47:34.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:50:35.602Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:50:38.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:50:57.302Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:50:57.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:53:55.818Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:54:01.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:54:44.194Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:54:45.245Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:55:00.371Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:55:02.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:56:03.849Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:56:10.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:57:27.873Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:57:29.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:57:46.786Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:57:47.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:58:00.186Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:58:00.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:58:13.482Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:58:14.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:58:22.380Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:58:23.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:58:33.508Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:58:35.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:58:59.501Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:59:00.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T08:59:39.137Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T08:59:41.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T09:00:09.939Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T09:00:10.923Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T09:00:42.712Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T09:00:44.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T09:21:10.176Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T09:21:13.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T09:24:08.365Z"}
+info: Connected to the database. {"timestamp":"2025-02-11T09:24:16.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-11T09:27:40.074Z"}
+error: Could not connect to the database. querySrv ENOTFOUND _mongodb._tcp.cluster0.rxit5.mongodb.net {"code":"ENOTFOUND","hostname":"_mongodb._tcp.cluster0.rxit5.mongodb.net","stack":"Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.rxit5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:19)","syscall":"querySrv","timestamp":"2025-02-11T09:27:41.799Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-11T09:28:04.563Z"}

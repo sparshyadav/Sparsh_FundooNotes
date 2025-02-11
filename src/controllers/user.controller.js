@@ -29,11 +29,10 @@ export const getAllUsers = async (req, res) => {
 
 export const loginUser = async (req, res) => {
   try {
-    console.log('Inside Controller');
     let data = await UserService.loginUser(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
+      token: data.token,
       message: 'User Loged In Successfully'
     });
   } catch (error) {

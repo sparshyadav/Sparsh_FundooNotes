@@ -1,5 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+// dotenv.config();
 
 //create new user
 export const newUser = async (body) => {
@@ -50,8 +52,12 @@ export const loginUser = async (body) => {
       return 'Password Does Not Match, Check it Again';
     }
 
-    delete user.password;
-    return user;
+    const token = jwt.sign(
+      { userId: user._id, email: user.email },
+      process.env.JWT_SECRET
+    );
+
+    return { user, token };
   } catch (error) {
     console.log(error);
   }
