@@ -31,3 +31,13 @@ export const getById = async (noteId) => {
         console.log(error);
     }
 }
+
+export const updateNote = async (_id, body) => {
+    try {
+        let data = await Note.findByIdAndUpdate(_id, body, { new: true });
+        return data;
+    }
+    catch (error) {
+        console.log(error);
+    }
+}

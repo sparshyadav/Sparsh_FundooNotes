@@ -43,3 +43,18 @@ export const getById = async (req, res) => {
         console.log(error);
     }
 }
+
+export const updateNote = async (req, res) => {
+    try {
+        let data = await noteService.updateNote(req.params.id, req.body);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: `Note with ID: ${req.params.id} Updated Successfully`
+        })
+    }
+    catch (error) {
+        console.log(error);
+    }
+}
+
