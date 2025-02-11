@@ -16,41 +16,17 @@ export const createNote = async (req, res) => {
     }
 }
 
-export const createUser = async (req, res) => {
+export const getAllNotes = async (req, res) => {
     try {
-        let data = await UserService.newUser(req.body);
-        res.status(HttpStatus.CREATED).json({
-            code: HttpStatus.CREATED,
-            data: data,
-            message: 'New User Created Successfully'
-        });
-    } catch (error) {
-        console.log(error);
-    }
-};
-
-export const getAllUsers = async (req, res) => {
-    try {
-        let data = await UserService.getAllUsers();
+        let data = await noteService.getAllNotes(req.body);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
-            message: 'All Users Sent'
-        });
-    } catch (error) {
+            message: 'All Notes Sent Successfully'
+        })
+    }
+    catch (error) {
         console.log(error);
     }
-};
+}
 
-export const loginUser = async (req, res) => {
-    try {
-        let data = await UserService.loginUser(req.body);
-        res.status(HttpStatus.OK).json({
-            code: HttpStatus.OK,
-            token: data.token,
-            message: 'User Loged In Successfully'
-        });
-    } catch (error) {
-        console.log(error);
-    }
-};
