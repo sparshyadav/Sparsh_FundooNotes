@@ -30,3 +30,16 @@ export const getAllNotes = async (req, res) => {
     }
 }
 
+export const getById = async (req, res) => {
+    try {
+        let data = await noteService.getById(req.params.id);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: `Note with ID: ${req.params.id} send Successfully`
+        })
+    }
+    catch (error) {
+        console.log(error);
+    }
+}

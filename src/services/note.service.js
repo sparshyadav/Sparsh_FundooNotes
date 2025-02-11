@@ -22,3 +22,12 @@ export const getAllNotes = async (body) => {
     }
 }
 
+export const getById = async (noteId) => {
+    try {
+        let data = await Note.findOne({ _id: noteId });
+        return data;
+    }
+    catch (error) {
+        console.log(error);
+    }
+}
