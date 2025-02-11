@@ -13,3 +13,30 @@ export const createUser = async (req, res) => {
     console.log(error);
   }
 };
+
+export const getAllUsers = async (req, res) => {
+  try {
+    let data = await UserService.getAllUsers();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'All Users Sent'
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const loginUser = async (req, res) => {
+  try {
+    console.log('Inside Controller');
+    let data = await UserService.loginUser(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'User Loged In Successfully'
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
