@@ -1,0 +1,400 @@
+error: Could not connect to the database. querySrv ENOTFOUND _mongodb._tcp.cluster0.rxit5.mongodb.net {"code":"ENOTFOUND","hostname":"_mongodb._tcp.cluster0.rxit5.mongodb.net","stack":"Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.rxit5.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:45:19)","syscall":"querySrv","timestamp":"2025-02-10T08:52:07.564Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "normalpassword" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#^()_+=-])[A-Za-z\d@$!%*?&#^()_+=-]{6,}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T08:54:32.672Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" with value "sparsh@hotmail.com" fails to match the required pattern: /^[a-zA-Z0-9._%+-]+@gmail\.com$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T08:56:18.371Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Pass@" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&#^()_+=-])[A-Za-z\d@$!%*?&#^()_+=-]{6,}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:14:50.629Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\My Data\Professional\FundooNotes\src\validators\/user.validator.js:22:8)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\My Data\Professional\FundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\My Data\Professional\FundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:34:23.803Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\My Data\Professional\FundooNotes\src\validators\/user.validator.js:22:8)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\My Data\Professional\FundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\My Data\Professional\FundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:34:43.259Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\My Data\Professional\FundooNotes\src\validators\/user.validator.js:22:8)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\My Data\Professional\FundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\My Data\Professional\FundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:36:06.708Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 6 characters long, and include at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:46:57.876Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 6 characters long, and include at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:47:06.873Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 6 characters long, and include at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:47:30.341Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 6 characters long, and include at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:48:41.905Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\My Data\Professional\FundooNotes\src\validators\/user.validator.js:23:8)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\My Data\Professional\FundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\My Data\Professional\FundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:50:05.199Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\My Data\Professional\FundooNotes\src\validators\/user.validator.js:23:8)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\My Data\Professional\FundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\My Data\Professional\FundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:51:45.159Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\My Data\Professional\FundooNotes\src\validators\/user.validator.js:23:8)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\My Data\Professional\FundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\My Data\Professional\FundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:51:51.494Z"}
+error: 
+    status - 500 
+    message - Error: Cannot apply rules to empty ruleset or the last rule added does not support rule properties
+    at new module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\My Data\Professional\FundooNotes\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.rule (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\base.js:465:9)
+    at internals.Base.message (C:\My Data\Professional\FundooNotes\node_modules\@hapi\joi\lib\extend.js:145:29)
+    at newUserValidator (C:\My Data\Professional\FundooNotes\src\validators\/user.validator.js:23:8)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\My Data\Professional\FundooNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:328:13)
+    at C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\My Data\Professional\FundooNotes\node_modules\express\lib\router\index.js:280:10)
+    at C:\My Data\Professional\FundooNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\My Data\Professional\FundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:90:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:53:26.033Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 6 characters long, and include at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:56:15.890Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 6 characters long, and include at least one uppercase letter, one lowercase letter, one number, and one special character. 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:56:25.565Z"}
