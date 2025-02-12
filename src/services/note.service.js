@@ -49,17 +49,25 @@ export const updateNote = async (_id, body) => {
 
 export const deleteNote = async (_id) => {
     try {
-        let data = await Note.findByIdAndUpdate(
-            _id,
-            { isTrashed: true },
-            { new: true }
-        );
+        let note = await Note.findById(_id);
+        if (note.isTrashed) {
+            let data = await Note.findByIdAndUpdate(
+                _id,
+                { isTrashed: false },
+                { new: true }
+            );
 
-        if (!data) {
-            throw new Error('Note not found');
+            return data;
         }
+        else {
+            let data = await Note.findByIdAndUpdate(
+                _id,
+                { isTrashed: true },
+                { new: true }
+            );
 
-        return data;
+            return data;
+        }
     }
     catch (error) {
         console.log(error);
