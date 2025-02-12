@@ -40,3 +40,31 @@ export const loginUser = async (req, res) => {
     console.log(error);
   }
 };
+
+export const forgetPassword=async(req, res)=>{
+  try{
+    let data = await UserService.forgetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      OTP: data,
+      message: 'OTP Sent Successfully'
+    });
+  }
+  catch(error){
+    console.log(error);
+  }
+}
+
+export const resetPassword=async(req, res)=>{
+  try{
+    let data=await UserService.resetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Password Reset Successfully'
+    });
+  }
+  catch(error){
+    console.log(error);
+  }
+}

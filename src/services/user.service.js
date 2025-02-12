@@ -2,7 +2,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-// dotenv.config();
 
 //create new user
 export const newUser = async (body) => {
@@ -59,6 +58,54 @@ export const loginUser = async (body) => {
     );
 
     return { user, token };
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+// eslint-disable-next-line no-unused-vars
+let recentOTP;
+export const forgetPassword = async (body) => {
+  try {
+    let { email } = body;
+
+    let user = User.findById(email);
+    if (!user) {
+      return 'User Does Not Exists';
+    }
+
+    let otp = Math.floor(100000 + Math.random() * 900000);
+    recentOTP = otp;
+    console.log('RecentOTPInsideReset: ', recentOTP);
+    return otp;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+export const resetPassword = async (body) => {
+  try {
+    let { email, otp, newPassword } = body;
+
+    let user = await User.findOne({ email });
+    if (!user) {
+      return 'User Does Not Exist';
+    }
+    console.log('Recent OTP: ', recentOTP);
+    console.log('OTP: ', otp);
+    if (parseInt(otp) !== recentOTP) {
+      return 'OTP Does Not Match';
+    }
+
+    let hashedPassword = await bcrypt.hash(newPassword, 10);
+
+    let updatedUser = await User.findOneAndUpdate(
+      { email },
+      { password: hashedPassword },
+      { new: true }
+    );
+
+    return updatedUser;
   } catch (error) {
     console.log(error);
   }
