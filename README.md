@@ -61,5 +61,5 @@ fundooNotes/
 ## 📬 Postman Collection
 
 You can test all the API endpoints using the provided Postman collection.  
-👉 [Click here to access the Postman Collection]([https://www.postman.com/your-collection-link](https://www.postman.com/avionics-geoscientist-52103740/workspace/linkedin-clone/collection/31275176-66aa7ae6-83fb-4e0c-8798-36500e865153?action=share&creator=31275176)) 
+👉 [Click here to access the Postman Collection](https://www.postman.com/avionics-geoscientist-52103740/workspace/linkedin-clone/collection/31275176-66aa7ae6-83fb-4e0c-8798-36500e865153?action=share&creator=31275176)
 
