@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:3000/api"
+      "url": "http://localhost:3000/api/v1"
     }
   ],
   "paths": {
@@ -33,9 +33,7 @@
             "description": "User created successfully"
           }
         }
-      }
-    },
-    "/users/getAll": {
+      },
       "get": {
         "summary": "Get all users",
         "operationId": "getAllUsers",
